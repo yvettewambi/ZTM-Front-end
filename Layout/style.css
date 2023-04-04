@@ -20,11 +20,21 @@ body {
   box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
+.box:hover {
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-transform: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  transform: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
 .main-nav {
   display: flex;
   list-style: none;
   font-size: 0.7em;
   margin: 0;
+  background-color: #2371be;
 }
 
 @media only screen and (max-width: 600px) {
@@ -32,6 +42,12 @@ body {
     font-size: 0.5rem;
     padding: 0;
   }
+}
+
+.stucky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .push {
@@ -52,6 +68,10 @@ a {
   align-items: center;
   justify-content: center;
   height: 50vh;
+}
+
+.cover {
+  width: 24rem;
 }
 
 /* Grid style */
