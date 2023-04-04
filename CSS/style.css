@@ -1,27 +1,27 @@
-.wildlife{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.wildlife {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-body{
-    margin: 0;
-}
-
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3em;
-    border-bottom: 2px solid salmon;
-    border-right: 2px solid salmon;
-    width: 400px;
-    text-align: center;
+body {
+  margin: 0;
 }
 
-img{
-    width: 450px;
-    height: 300px;
-    margin: 10px;
-    transition: all 1s;
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3em;
+  border-bottom: 2px solid salmon;
+  border-right: 2px solid salmon;
+  width: 400px;
+  text-align: center;
 }
-img:hover{
-    transform: scale(1.1);
+
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.1);
 }
